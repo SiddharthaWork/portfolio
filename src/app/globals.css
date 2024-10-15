@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -24,4 +24,18 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@keyframes gradient-xyz{
+  0%, 100%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-xyz {
+  animation: gradient-xyz 5s ease infinite;
+  background-size: 200% 200%;
 }
