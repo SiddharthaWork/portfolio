@@ -18,7 +18,7 @@ const Contact = () => {
                 </li>
                 <li className='flex items-center'>
                     <Image src={email} alt="email" className='h-[110px] w-auto mr-6 ' />
-                    <p className='text-xl'>siddharthashresthaworks@gmail.com</p>
+                    <p className='w-[250px] md:text-xl'>siddharthashresthaworks@gmail.com</p>
                 </li>
             </ul>
 

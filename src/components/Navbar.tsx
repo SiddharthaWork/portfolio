@@ -3,9 +3,6 @@ import Link from "next/link"
 import React, { use, useState } from "react"
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
 import { motion } from "framer-motion"
-import path from "path"
-import { li } from "framer-motion/client"
-import { map } from "framer-motion/m"
 
 const navlink = [
     {
@@ -104,7 +101,7 @@ const Navbar = () => {
                                     {link.name}
                                 </Link>
                             </li>
-                        ))}
+                        ))}  
                     </ul>
                 </motion.div>
 

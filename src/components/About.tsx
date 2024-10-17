@@ -4,7 +4,7 @@ import Image from 'next/image'
 import aboutImg from '../assets/profilepic.png'
 import book from '../assets/book.png'
 import pc from '../assets/pc.png'
-import card from '../assets/card.png'
+import card from '../assets/resumeimage-removebg-preview.png'
 import finance from '../assets/finance.png'
 import Link from 'next/link'
 import { AiOutlineDownload } from 'react-icons/ai'
@@ -66,7 +66,7 @@ const About = () => {
                     <div className='absolute inset-0 bg-gradient-to-r from-orange-400 via-purple-700 to-orange-800 opacity-30 animate-gradient-xyz pointer-events-none'> </div>
                     <div className='flex flex-row p-6'>
                         <Image
-                            src={finance}
+                            src={card}
                             alt='book'
                             className='w-auto h-[130px]'
                         />

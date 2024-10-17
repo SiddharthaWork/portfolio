@@ -4,7 +4,6 @@ import cursor from "../assets/icon1.png"
 import message from "../assets/icon2.png"
 import { motion } from "framer-motion"
 import profilepic from "../assets/white-man-typing-on-apple-computer-wearing-black-hoodie.png"
-import { div } from "framer-motion/client"
 
 
 const Hero = () => {

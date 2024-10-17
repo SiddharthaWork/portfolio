@@ -3,7 +3,7 @@ import { title } from 'process'
 import React from 'react'
 import project1 from "../assets/able.png"
 import project2 from "../assets/sneaker.jpg"
-import project3 from "../assets/proj3.png"
+import project3 from "../assets/1x.jpg"
 import { motion } from "framer-motion"
 import Image from 'next/image'
 import { AiOutlineGithub } from 'react-icons/ai'
@@ -39,8 +39,8 @@ const data = [
  performance metrics.`,
         devstack: "Html, CSS, JavaScript",
         link: "#",
-        git: "https://github.com/SiddharthaWork/Sneakerhead-Ecommerce-Website-",
-        src: project1,
+        git: "https://github.com/SiddharthaWork/1xSpeed-Test-Your-Speed",
+        src: project3,
 
     },
 ]
