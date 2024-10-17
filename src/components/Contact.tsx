@@ -18,12 +18,12 @@ const Contact = () => {
                 </li>
                 <li className='flex items-center'>
                     <Image src={email} alt="email" className='h-[110px] w-auto mr-6 ' />
-                    <p className='w-[250px] md:text-xl'>siddharthashresthaworks@gmail.com</p>
+                    <p className='md:text-xl'>siddharthashresthaworks@gmail.com</p>
                 </li>
-            </ul>
+            </ul>   
 
         </div>
-        <div className='flex justify-content-end pl-12'>
+        <div className='flex justify-content-end md:pl-32'>
         <div className='bg-white/10 p-6 rounded-xl max-w-[1550px]'>
             <h2 className='text-5xl font-bold text-orange-400 mb-4'>
                 Let's Connect
