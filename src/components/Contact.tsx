@@ -10,7 +10,7 @@ const Contact = () => {
     flex flex-col lg:flex-row text-white/70 p-8
     rounded-lg space-y-8 lg:space-y-0 lg:space-x-8
     ' id="contact"  >
-        <div className='flex justify-center item-center'>
+        <div className='flex-start md:flex justify-center item-center'>
             <ul className='space-y-4'>
                 <li className='flex items-center'>
                     <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6 ' />
@@ -18,7 +18,11 @@ const Contact = () => {
                 </li>
                 <li className='flex items-center'>
                     <Image src={email} alt="email" className='h-[110px] w-auto mr-6 ' />
-                    <p className='md:text-xl'>siddharthashresthaworks@gmail.com</p>
+                    <p className=' md:text-xl'>
+                        <span className='block sm:inline'>siddharthashresthaworks</span>
+                        <span className='block sm:inline'>@gmail.com</span>
+                    </p>
+
                 </li>
             </ul>   
 

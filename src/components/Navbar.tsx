@@ -13,6 +13,10 @@ const navlink = [
         name: "Projects",
         path: "#projects"
     },
+    {
+        text: "Contact",
+        path: "#contact"
+    }
 ]
 
 
@@ -50,7 +54,8 @@ const Navbar = () => {
         <div className="text-white/70 pt-6">
             <div className="hidden md:flex items-center px-4 py-4 mx-auto max-w-[400px] ">
                 <ul className="flex flex-row p-4 space-x-8 font-semibold">
-                    {navlink.map((link, index) => (
+                    {navlink.filter((link) => link.name).
+                    map((link, index) => (
                         <li key={index}>
                             <Link href={link.path}>
                                 <p>{link.name}</p>
@@ -99,6 +104,7 @@ const Navbar = () => {
                             <li key={index}>
                                 <Link href={link.path} onClick={closeNav}>
                                     {link.name}
+                                    {link.text}
                                 </Link>
                             </li>
                         ))}  
