@@ -63,7 +63,7 @@ const Portfolio = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.5, delay: 0.25 }}
-                            className={`mt-12 flex flex-col  ${index % 2 === 1 ? "md:flex-row-reverse gap-12" : "md:flex-row gap-4 "}`}
+                            className={`mt-12 flex flex-col  ${index % 2 === 1 ? "md:flex-row-reverse gap-12" : "md:flex-row gap-12 "}`}
                         >
 
                             <div className='space-y-2 max-w-[550px]'>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                                     <a href={project.git} target="_blank" rel="noopener noreferrer">
                                         <div className="flex items-center">
                                             <AiOutlineGithub className="mr-2" />
-                                            <span>GitHub</span>
+                                            <span className='hover:text-orange-400'>GitHub</span>
                                         </div>
                                     </a>
 

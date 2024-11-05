@@ -102,7 +102,7 @@ const About = () => {
                             <h2 className='text-2xl font-bold text-white/80 '>Technical Skills
                             </h2>
                             <p className='text-lg text-white/70 mt-2'>
-                                As a Fullstack Web Developer, I have experience with React, Next.js, PHP, MySql and Tailwind CSS.
+                                As a Fullstack Web Devlopment Enthusiastic, I have experience with React, Next.js, PHP, MySql and Tailwind CSS.
                             </p>
                         </div>
                     </div>
