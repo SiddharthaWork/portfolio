@@ -1,12 +1,10 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import aboutImg from '../assets/profilepic.png'
 import book from '../assets/book.png'
 import pc from '../assets/pc.png'
 import card from '../assets/resumeimage-removebg-preview.png'
 import finance from '../assets/finance.png'
-import Link from 'next/link'
 import { AiOutlineDownload } from 'react-icons/ai'
 
 
@@ -102,7 +100,7 @@ const About = () => {
                             <h2 className='text-2xl font-bold text-white/80 '>Technical Skills
                             </h2>
                             <p className='text-lg text-white/70 mt-2'>
-                                As a Fullstack Web Devlopment Enthusiastic, I have experience with React, Next.js, PHP, MySql and Tailwind CSS.
+                                As a Fullstack Web Developer, I have experience with React, Next.js, PHP, MySql and Tailwind CSS.
                             </p>
                         </div>
                     </div>
