@@ -6,7 +6,7 @@ import email from '../assets/mail.png';
 
 const Contact = () => {
   return (
-    <div    className='max-w-[1000px] mx-auto 
+    <div    className='max-w-[1100px] mx-auto 
     flex flex-col lg:flex-row text-white/70 p-8
     rounded-lg space-y-8 lg:space-y-0 lg:space-x-8
     ' id="contact"  >
@@ -27,7 +27,7 @@ const Contact = () => {
             </ul>   
 
         </div>
-        <div className='flex justify-content-end md:pl-32'>
+        <div className='flex justify-content-end md:pl-48'>
         <div className='bg-white/10 p-6 rounded-xl max-w-[1550px]'>
             <h2 className='text-5xl font-bold text-orange-400 mb-4'>
                 Let's Connect
