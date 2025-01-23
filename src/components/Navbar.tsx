@@ -90,7 +90,7 @@ const Navbar = () => {
                     nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />
                 }
             </div>
-
+                {/* This is for the mobile view */}
                 <motion.div 
                 initial={false}
                 animate={nav ? "open" : "closed"}
