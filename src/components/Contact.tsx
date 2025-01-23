@@ -14,7 +14,7 @@ const Contact = () => {
             <ul className='space-y-4'>
                 <li className='flex items-center'>
                     <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6 ' />
-                    <p className='text-xl'>+977 9869064012</p>
+                    {/* <p className='text-xl'>+977 9869064012</p> */}
                 </li>
                 <li className='flex items-center'>
                     <Image src={email} alt="email" className='h-[110px] w-auto mr-6 ' />
