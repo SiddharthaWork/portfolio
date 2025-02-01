@@ -38,10 +38,10 @@ const Contact = () => {
             </p>
             <form className='space-y-4' action="https://getform.io/f/aroldqyb" method="POST">
                 <div className='grid md:grid-cols-2 gap-4'>
-                    <input type="text" name="firstName" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='First Name' />
-                    <input type="text" name="lastName" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Last Name' />
-                    <input type="email" name="email" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Mail' />
-                    <input type="number" name="phone" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Phone' />
+                    <input required type="text" name="firstName" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='First Name' />
+                    <input required type="text" name="lastName" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Last Name' />
+                    <input required type="email" name="email" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Mail' />
+                    <input required type="number" name="phone" className='bg-black/70 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Phone' />
                 </div>
                 <textarea className='bg-black/70 rounded-xl p-3 w-full focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Your Message'/>
                 <button type='submit' className='bg-orange-700 hover:bg-orange-500 text-white px-6 py-2 w-full font-semibold rounded-xl'>
