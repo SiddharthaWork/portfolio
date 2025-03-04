@@ -3,7 +3,7 @@ import { title } from 'process'
 import React from 'react'
 import project1 from "../assets/able.png"
 import project2 from "../assets/sneaker.jpg"
-import project3 from "../assets/1x.jpg"
+import project3 from "../assets/codesnipe.png"
 import { motion } from "framer-motion"
 import Image from 'next/image'
 import { AiOutlineGithub } from 'react-icons/ai'
@@ -21,6 +21,16 @@ const data = [
 
     },
     {
+        title: "CodeSnipe-Online Code Editor",
+        desc: ` Developed an online code editor with user authentication to write, run, save, and preview HTML, CSS, and
+   JavaScript in real time. `,
+        devstack: "React.js, Node.js, Express.js, MongoDB, Tailwind CSS",
+        link: "#",
+        git: "https://github.com/SiddharthaWork/CodeSnipe-OnlineCodeEditor",
+        src: project3,
+
+    },
+    {
         title: "Sneakerhead E-commerce Platform",
         desc: ` Designed and built a sneaker-focused e-commerce platform
  featuring a robust backend for efficiently managing products, user
@@ -30,17 +40,6 @@ const data = [
         link: "#",
         git: "https://github.com/SiddharthaWork/Sneakerhead-Ecommerce-Website-",
         src: project2,
-
-    },
-    {
-        title: "1xSpeed Typing Speed Test",
-        desc: ` Crafted a typing speed test website reminiscent of platforms such
- as Monkeytype with real-time typing tests, accuracy tracking, and
- performance metrics.`,
-        devstack: "Html, CSS, JavaScript",
-        link: "#",
-        git: "https://github.com/SiddharthaWork/1xSpeed-Test-Your-Speed",
-        src: project3,
 
     },
 ]
@@ -71,16 +70,14 @@ const Portfolio = () => {
                                 <h2 className='text-4xl'>{project.title}</h2>
                                 <p className='text-lg break-words p-4 text-white/70'>{project.desc}</p>
                                 <p className='text-xl text-orange-500 font-semibold'>{project.devstack}</p>
-                                <div className='w-64 h-[1px] bg-gray-400 my-4 '>
+                                <div className='w-64 h-[1px] bg-gray-400 mt-4 mb-4'>
                                     {/* <a href="{project.link}" className='mr-6'>Link</a> */}
-
                                     <a href={project.git} target="_blank" rel="noopener noreferrer">
-                                        <div className="flex items-center">
+                                        <div className="flex items-center pt-2">
                                             <AiOutlineGithub className="mr-2" />
                                             <span className='hover:text-orange-400'>GitHub</span>
                                         </div>
                                     </a>
-
                                 </div>
 
                             </div>
