@@ -13,10 +13,6 @@ const Contact = () => {
         <div className='flex-start md:flex justify-center item-center'>
             <ul className='space-y-4'>
                 <li className='flex items-center'>
-                    <Image src={phone} alt="phone" className='h-[110px] w-auto mr-6 ' />
-                    {/* <p className='text-xl'>+977 9869064012</p> */}
-                </li>
-                <li className='flex items-center'>
                     <Image src={email} alt="email" className='h-[110px] w-auto mr-6 ' />
                     <p className=' md:text-xl'>
                         <span className='block sm:inline'>siddharthashresthaworks</span>
@@ -46,7 +42,6 @@ const Contact = () => {
                 <textarea className='bg-black/70 rounded-xl p-3 w-full focus:outline-none focus:ring-2 focus:ring-orange-400' placeholder='Your Message'/>
                 <button type='submit' className='bg-orange-700 hover:bg-orange-500 text-white px-6 py-2 w-full font-semibold rounded-xl'>
                     Send Message
-
                 </button>
             </form>
         </div>
