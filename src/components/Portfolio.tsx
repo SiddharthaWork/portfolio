@@ -1,4 +1,5 @@
 "use client"
+import { title } from 'process'
 import React from 'react'
 import project1 from "../assets/able.png"
 import project2 from "../assets/sneaker.jpg"
